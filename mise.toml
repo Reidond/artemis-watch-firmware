@@ -1,0 +1,4 @@
+# Puts the repo's tools/bin first on PATH inside this directory, so editors
+# (Zed, VS Code) start tools/bin/clangd, which knows the ESP32-S3 toolchain.
+[env]
+_.path = ["{{config_root}}/tools/bin"]

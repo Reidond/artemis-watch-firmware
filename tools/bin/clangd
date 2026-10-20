@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# clangd for this repo, picked up by editors through $PATH (see mise.toml).
+# Uses Espressif's LLVM build, which understands the Xtensa target, and lets it
+# query the ESP32-S3 GCC for its system headers. Install it once with:
+#   python "$IDF_PATH/tools/idf_tools.py" install esp-clang
+set -euo pipefail
+
+tools="${IDF_TOOLS_PATH:-$HOME/.espressif}/tools/esp-clang"
+clangd="$(ls -d "$tools"/*/esp-clang/bin/clangd 2>/dev/null | sort -V | tail -1 || true)"
+
+if [[ -z "$clangd" ]]; then
+	echo "esp-clang not found under $tools; falling back to the system clangd." >&2
+	self_dir="$(cd "$(dirname "$0")" && pwd)"
+	PATH="$(printf '%s' "$PATH" | tr ':' '\n' | grep -vxF "$self_dir" | paste -sd: -)"
+	exec clangd "$@"
+fi
+
+exec "$clangd" --query-driver='**/xtensa-esp32s3-elf-*' --background-index --header-insertion=never "$@"

@@ -1,0 +1,26 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSBluetoothAlwaysUsageDescription": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Artemis підключається до годинника, щоб синхронізувати налаштування, погоду й прошивку."
+          }
+        }
+      }
+    },
+    "NSLocationWhenInUseUsageDescription": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Artemis показує на годиннику погоду там, де ви є."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,546 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%lld min": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld хв"
+          }
+        }
+      }
+    },
+    "%lld s": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld с"
+          }
+        }
+      }
+    },
+    "24-hour clock": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "24-годинний формат"
+          }
+        }
+      }
+    },
+    "Allow location for weather": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дозволити геолокацію для погоди"
+          }
+        }
+      }
+    },
+    "Artemis": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Artemis"
+          }
+        }
+      }
+    },
+    "Battery": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Батарея"
+          }
+        }
+      }
+    },
+    "Bluetooth access needed": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Потрібен доступ до Bluetooth"
+          }
+        }
+      }
+    },
+    "Bluetooth is off": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bluetooth вимкнено"
+          }
+        }
+      }
+    },
+    "Board": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Плата"
+          }
+        }
+      }
+    },
+    "Brightness": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Яскравість"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скасувати"
+          }
+        }
+      }
+    },
+    "Charged": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Заряджено"
+          }
+        }
+      }
+    },
+    "Charging": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Заряджається"
+          }
+        }
+      }
+    },
+    "Choose a firmware file…": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вибрати файл прошивки…"
+          }
+        }
+      }
+    },
+    "Clear": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ясно"
+          }
+        }
+      }
+    },
+    "Connected": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Підключено"
+          }
+        }
+      }
+    },
+    "Connecting…": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Підключення…"
+          }
+        }
+      }
+    },
+    "Count from the Artemis II launch": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Відлік від старту Artemis II"
+          }
+        }
+      }
+    },
+    "Drizzle": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мряка"
+          }
+        }
+      }
+    },
+    "Find watch": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Знайти годинник"
+          }
+        }
+      }
+    },
+    "Firmware": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Прошивка"
+          }
+        }
+      }
+    },
+    "Flip screen": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перевернути екран"
+          }
+        }
+      }
+    },
+    "Fog": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Туман"
+          }
+        }
+      }
+    },
+    "Freezing rain": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Крижаний дощ"
+          }
+        }
+      }
+    },
+    "Imported file": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вибраний файл"
+          }
+        }
+      }
+    },
+    "In this app": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "У застосунку"
+          }
+        }
+      }
+    },
+    "Language": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мова"
+          }
+        }
+      }
+    },
+    "Location unavailable": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Геолокація недоступна"
+          }
+        }
+      }
+    },
+    "Looking for the watch…": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Шукаю годинник…"
+          }
+        }
+      }
+    },
+    "Mainly clear": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переважно ясно"
+          }
+        }
+      }
+    },
+    "No firmware in this build.": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "У цій збірці немає прошивки."
+          }
+        }
+      }
+    },
+    "Not a watch firmware image": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Це не прошивка годинника"
+          }
+        }
+      }
+    },
+    "On the watch": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "На годиннику"
+          }
+        }
+      }
+    },
+    "Overcast": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Хмарно"
+          }
+        }
+      }
+    },
+    "Pair the watch in Settings → Bluetooth first, then keep it close.": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Спершу підʼєднайте годинник у Параметрах → Bluetooth і тримайте його поруч."
+          }
+        }
+      }
+    },
+    "Partly cloudy": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мінлива хмарність"
+          }
+        }
+      }
+    },
+    "Rain": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дощ"
+          }
+        }
+      }
+    },
+    "Screen timeout": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Згасання екрана"
+          }
+        }
+      }
+    },
+    "Send weather now": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Надіслати погоду зараз"
+          }
+        }
+      }
+    },
+    "Sent %@": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Надіслано о %@"
+          }
+        }
+      }
+    },
+    "Showers": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Злива"
+          }
+        }
+      }
+    },
+    "Snow": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сніг"
+          }
+        }
+      }
+    },
+    "Sounds": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Звуки"
+          }
+        }
+      }
+    },
+    "T+ counts from": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "T+ відлік від"
+          }
+        }
+      }
+    },
+    "The watch is preparing…": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Годинник готується…"
+          }
+        }
+      }
+    },
+    "Thunderstorm": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Гроза"
+          }
+        }
+      }
+    },
+    "Update automatically": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оновлювати автоматично"
+          }
+        }
+      }
+    },
+    "Update failed: %@": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оновлення не вдалося: %@"
+          }
+        }
+      }
+    },
+    "Update watch to %@": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оновити годинник до %@"
+          }
+        }
+      }
+    },
+    "Verifying and restarting the watch…": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Перевірка й перезапуск годинника…"
+          }
+        }
+      }
+    },
+    "Watch": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Годинник"
+          }
+        }
+      }
+    },
+    "Watch updated to %@": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Годинник оновлено до %@"
+          }
+        }
+      }
+    },
+    "Weather": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Погода"
+          }
+        }
+      }
+    },
+    "Weather data: Open-Meteo.com": {
+      "localizations": {
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дані про погоду: Open-Meteo.com"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

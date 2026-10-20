@@ -1,0 +1,41 @@
+# ESP-IDF build output
+firmware/build/
+firmware/build-*/
+firmware/sdkconfig
+firmware/sdkconfig.old
+firmware/managed_components/
+firmware/dependencies.lock.bak
+
+# Font tool scratch
+tools/.fonts-src/
+tools/node_modules/
+
+# Python
+__pycache__/
+.venv/
+
+# Screenshots from tools/watchctl.py
+screenshots/
+
+# macOS
+.DS_Store
+
+# Flash dumps include NVS (BLE bonding keys, Wi-Fi credentials): keep them local
+backup/*.bin
+
+# clangd index
+.cache/
+
+# Art sources downloaded by tools/gen_art.py
+tools/.art-src/
+
+# Concept art images stay local; design/concepts/README.md describes them
+design/concepts/*.png
+
+# iOS: generated project and personal signing settings
+ios/*.xcodeproj/
+ios/Local.xcconfig
+ios/build/
+
+# PragmataPro font files (tools/gen_fonts.sh pragmata): commercial font, local only
+firmware/main/ui/fonts/local/

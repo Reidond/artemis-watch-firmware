@@ -1,0 +1,17 @@
+# Artemis Watch 2.0 UI concepts
+
+These six image-tool concepts are exported as opaque 1024×1024 PNGs from a 128×128 raster using exact 8× nearest-neighbor enlargement. The bottom 12 logical pixels are reserved for left-aligned back, forward, click, and power hints. Every PNG uses only black `#000000`, off-white `#F2F2F2`, NASA red `#FC3D21`, and mid grey `#808080`. The generated shading uses Bayer-style checks and Atkinson-style clusters; these are visual approximations, not verified outputs of those algorithms. Ukrainian wording was checked visually after rasterization. No firmware or LVGL rendering was changed or tested.
+
+**01-watchface-moon.png** — The four-color palette puts red on the battery fill and day-progress meter. Bayer-style checks shade the Moon’s terminator, with Atkinson-style clusters suggesting craters. Reproducing this on LVGL would require a pre-rendered 128-pixel lunar asset and a compact Cyrillic bitmap font that keeps “19 жовтня” and “Понеділок” readable beside the illustration.
+
+**02-watchface-orbit.png** — Black, off-white, red, and grey distinguish the elapsed-day counter, transfer marker, and celestial bodies. Bayer-style density changes create the Earth and Moon shading. LVGL’s main challenge would be preserving the stepped orbit and patterned spheres without antialiasing or pattern shimmer when the spacecraft marker moves.
+
+**03-watchface-data.png** — The same four colors separate telemetry, the active red histogram bar, and the calendar indicator. Bayer-style checker fills give the small bar graphs texture. Fitting “Кроки”, “6 214”, the phone-link status, and the next appointment into 116 content rows would require carefully measured glyphs, fixed row heights, and localized redraws.
+
+**04-menu.png** — Off-white labels and icons sit on black, with red selection markers and small grey details. A Bayer-style checker band surrounds “Сповіщення” while leaving the text on a solid background. The longest labels, especially “Налаштування” and “Про годинник”, would need a narrow Cyrillic bitmap font and tightly controlled icon spacing to fit all five rows above the footer.
+
+**05-notification.png** — The black/off-white/grey palette forms a Bayer-style dithered Telegram header; red marks the unread message and close action. “Олена” and “Буду о 19:00, візьми хліб” remain solid for readability. LVGL would need correct Ukrainian glyph coverage and explicit line wrapping; longer real notifications would also need scrolling or truncation within the fixed content area.
+
+**06-music.png** — Red emphasizes the music icon, playhead, and pause state against black, off-white, and grey. Bayer-style checks shade the lunar record and progress fill, with clustered dots around the disc. The invented track “Місячне сяйво” by “Тиха орбіта” demonstrates Ukrainian metadata. The difficult LVGL details would be fitting variable-length titles and keeping the progress pattern anchored while its fill changes, with transport and volume controls clear above the footer.
+
+Validation: all six files have been checked for 1024×1024 dimensions, opaque RGB output, the four allowed colors, constant 8×8 pixel blocks, and a black right half in the bottom 96-pixel strip. All requested Ukrainian strings were visually checked. RGB565 hardware will quantize the supplied RGB888 palette slightly; exact panel color and native LVGL font rendering remain unverified.

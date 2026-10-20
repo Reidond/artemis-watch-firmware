@@ -1,0 +1,23 @@
+# Editor support (Zed/VS Code clangd) for the ESP-IDF firmware.
+# The build uses Xtensa GCC; clangd reads its compile_commands.json and must
+# drop the GCC-only flags it doesn't understand.
+CompileFlags:
+  CompilationDatabase: firmware/build
+  Remove:
+    - -mlongcalls
+    - -mdisable-hardware-atomics
+    - -mtext-section-literals
+    - -mfix-esp32-psram-cache-issue
+    - -mfix-esp32-psram-cache-strategy=*
+    - -fno-tree-switch-conversion
+    - -fstrict-volatile-bitfields
+    - -fno-shrink-wrap
+    - -fzero-init-padding-bits=*
+    - -fno-malloc-dce
+    - -specs=*
+    - --specs=*
+    - -fdiagnostics-color=*
+Diagnostics:
+  Suppress:
+    - drv_unknown_argument
+    - drv_unknown_argument_with_suggestion
